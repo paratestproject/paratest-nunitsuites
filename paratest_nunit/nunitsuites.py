@@ -9,7 +9,7 @@ from xml.dom.minidom import parse, parseString
 logger = logging.getLogger('paratest')
 
 
-class NunitSuites():
+class NunitSuites(object):
     tmp = tempfile.mkdtemp()
     tests_xml = os.path.join(tmp, 'nunit_test_list.xml')
 
