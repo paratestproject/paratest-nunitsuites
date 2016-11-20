@@ -54,9 +54,9 @@ setup(
         'Libraries :: Application Frameworks',
     ],
     keywords='parallel test plugin',
-    author=author,
-    author_email=author_email,
-    url=url,
+    author='Miguel Ángel García',
+    author_email='miguelangel.garcia@gmail.com',
+    url='https://github.com/paratestproject/paratest-nunitsuites',
     license='MIT',
     packages=find_packages('.'),
     install_requires=[
